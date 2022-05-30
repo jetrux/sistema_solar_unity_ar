@@ -1,0 +1,179 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.Test_Sistema_Solar"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-67
+21-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:22-64
+22
+23    <uses-feature
+23-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-18:36
+24        android:name="android.hardware.touchscreen"
+24-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:9-52
+25        android:required="false" />
+25-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:9-33
+26
+27    <uses-permission android:name="android.permission.CAMERA" />
+27-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:5-65
+27-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:22-62
+28
+29    <uses-feature
+29-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:5-24:35
+30        android:name="android.hardware.camera.ar"
+30-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-50
+31        android:required="true" />
+31-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-32
+32    <uses-feature
+32-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:5-27:35
+33        android:name="com.google.ar.core.depth"
+33-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:9-48
+34        android:required="true" />
+34-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-32
+35
+36    <queries>
+36-->[:arcore_client:] C:\Users\Gaston\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:29:5-31:15
+37        <package android:name="com.google.ar.core" />
+37-->[:arcore_client:] C:\Users\Gaston\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:30:9-54
+37-->[:arcore_client:] C:\Users\Gaston\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:30:18-51
+38    </queries>
+39
+40    <application
+40-->E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+41        android:extractNativeLibs="true"
+41-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:18-50
+42        android:icon="@mipmap/app_icon"
+42-->E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+43        android:label="@string/app_name" >
+43-->E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+44        <activity
+44-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:9-50:20
+45            android:name="com.unity3d.player.UnityPlayerActivity"
+45-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:13-66
+46            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+46-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-194
+47            android:hardwareAccelerated="false"
+47-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-48
+48            android:launchMode="singleTask"
+48-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-44
+49            android:resizeableActivity="false"
+49-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-47
+50            android:screenOrientation="fullSensor"
+50-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-51
+51            android:theme="@style/UnityThemeSelector" >
+51-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-54
+52            <intent-filter>
+52-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-42:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:17-69
+53-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:17-77
+55-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:27-74
+56            </intent-filter>
+57
+58            <meta-data
+58-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:13-46:40
+59                android:name="unityplayer.UnityActivity"
+59-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:17-57
+60                android:value="true" />
+60-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:17-37
+61            <meta-data
+61-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:13-49:40
+62                android:name="android.notch_support"
+62-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:17-53
+63                android:value="true" />
+63-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:17-37
+64        </activity>
+65
+66        <meta-data
+66-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:9-54:33
+67            android:name="unity.splash-mode"
+67-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:13-45
+68            android:value="0" />
+68-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-30
+69        <meta-data
+69-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:9-57:36
+70            android:name="unity.splash-enable"
+70-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:13-47
+71            android:value="True" />
+71-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-33
+72        <meta-data
+72-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:9-60:36
+73            android:name="unity.launch-fullscreen"
+73-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:13-51
+74            android:value="True" />
+74-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-33
+75        <meta-data
+75-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:9-63:37
+76            android:name="unity.allow-resizable-window"
+76-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:13-56
+77            android:value="False" />
+77-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-34
+78        <meta-data
+78-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:9-66:50
+79            android:name="notch.config"
+79-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-40
+80            android:value="portrait|landscape" />
+80-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-47
+81        <meta-data
+81-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:9-69:36
+82            android:name="unityplayer.SkipPermissionsDialog"
+82-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-61
+83            android:value="true" />
+83-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-33
+84        <meta-data
+84-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:9-72:40
+85            android:name="com.google.ar.core"
+85-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:13-46
+86            android:value="required" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+86-->[:unityLibrary] E:\Games\Unity Projects\Test_Sistema_Solar\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:13-37
+87        <meta-data
+87-->[:arcore_client:] C:\Users\Gaston\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:36:9-38:41
+88            android:name="com.google.ar.core.min_apk_version"
+88-->[:arcore_client:] C:\Users\Gaston\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:37:13-62
+89            android:value="210910000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+89-->[:arcore_client:] C:\Users\Gaston\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:38:13-38
+90        <activity
+90-->[:arcore_client:] C:\Users\Gaston\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:40:9-46:80
+91            android:name="com.google.ar.core.InstallActivity"
+91-->[:arcore_client:] C:\Users\Gaston\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:41:13-62
+92            android:configChanges="keyboardHidden|orientation|screenSize"
+92-->[:arcore_client:] C:\Users\Gaston\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:42:13-74
+93            android:excludeFromRecents="true"
+93-->[:arcore_client:] C:\Users\Gaston\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:43:13-46
+94            android:exported="false"
+94-->[:arcore_client:] C:\Users\Gaston\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:44:13-37
+95            android:launchMode="singleTop"
+95-->[:arcore_client:] C:\Users\Gaston\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:45:13-43
+96            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+96-->[:arcore_client:] C:\Users\Gaston\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:46:13-77
+97    </application>
+98
+99</manifest>

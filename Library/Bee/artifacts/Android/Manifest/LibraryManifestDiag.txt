@@ -1,0 +1,9 @@
+Using template 'E:/Program Files/Unity/2021.2.7f1/Editor/Data/PlaybackEngines/AndroidPlayer\Apk\UnityManifest.xml'
+
+android.permission.INTERNET was added because:
+	UnityEngine.Networking was present in:
+		Unity.XR.ARCore-FeaturesChecked.txt
+	UnityEngine.Network was present in:
+		Unity.XR.ARCore-FeaturesChecked.txt
+	UnityEngine.Networking.UnityWebRequest was present in:
+		Unity.XR.ARCore-FeaturesChecked.txt

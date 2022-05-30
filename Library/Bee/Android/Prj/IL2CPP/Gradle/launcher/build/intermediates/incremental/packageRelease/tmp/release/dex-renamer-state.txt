@@ -1,0 +1,4 @@
+#Sun May 29 02:24:45 ART 2022
+base.0=E\:\\Games\\Unity Projects\\Test_Sistema_Solar\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
